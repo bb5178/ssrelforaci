@@ -1,2 +1,2 @@
-FROM haproxy:2.2-alpine
+FROM haproxy:1.7-alpine
 COPY relay.cfg /usr/local/etc/haproxy/haproxy.cfg
